@@ -1,0 +1,27 @@
+#attendance_entries {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#attendance_entries td,
+#attendance_entries th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#attendance_entries tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+#attendance_entries tr:hover {
+    background-color: #ddd;
+}
+
+#attendance_entries th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #a0a0a0;
+    color: white;
+}
